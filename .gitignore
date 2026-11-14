@@ -1,0 +1,15 @@
+# COFRE - NUNCA SOBE
+.env
+.env.local
+
+# MEMÓRIA PRIVADA - NUNCA SOBE
+*_LOCAL.md
+*_COMPLETO.md
+*_PRIVADO.md
+*SENHA*
+*TOKEN*
+
+# LIXO DO SISTEMA
+.DS_Store
+Thumbs.db
+node_modules/

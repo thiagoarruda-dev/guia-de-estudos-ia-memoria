@@ -1,0 +1,59 @@
+# LEARNING_log.md - Meu Diário de Aprendizado
+
+> Este arquivo é seu caderno. Todo Jr precisa provar que aprendeu.
+> Preencha TODO DIA antes de dar `git add`. Sem isso, o commit não vale.
+
+---
+
+## Como usar (Leia isso primeiro, Jr)
+
+1.  Todo dia que você estudar, copie o bloco abaixo e cole com a data de hoje.
+2.  Seja honesto. Se deu erro, escreve o erro. É assim que você aprende.
+3.  No final, sempre faça o TESTE DE MEMÓRIA: pergunte "quem sou eu?" pra IA.
+
+---
+
+### [EXEMPLO] 13/11/2026 - Dia 1 - Entendi o que é memória
+
+**1. O que aprendi hoje?**
+Aprendi que minha memória não fica presa no Cline ou no ChatGPT. Minha memória fica na pasta `_context-modelo/` que é meu HD externo. O `.clinerules` e o `AGENT.md` são só cabos USB.
+
+**2. Onde eu cliquei? (Passo a passo pra outro Jr repetir)**
+- Abri o LM Studio > fui em Chat > System Prompt > colei o conteúdo de `_context-modelo/`
+- No VS Code, criei o arquivo `.clinerules` na raiz e colei "Leia sempre _context-modelo/"
+
+**3. Qual erro eu tive?**
+Deixei a pesquisa Web ligada no NotebookLM e ele inventou que eu usava Qdrant e Docker. Minha stack real é só LM Studio + VS Code.
+
+**4. Como eu resolvi?**
+Desmarquei "Pesquisa Web" no NotebookLM e coloquei a regra em `03-regras.md`: "Só sugira Qdrant/Docker se falar [FUTURO - FASE 3]".
+
+**5. Teste de Memória (Prova)**
+Perguntei: "Quem sou eu?"
+IA respondeu: "Você é Thiago de Porto de Galinhas/PE, Dev Jr em transição pra IA, projeto guia-de-estudos-ia-memoria"
+Resultado: ✅ PASSOU
+
+---
+
+### [COPIE DAQUI PRA BAIXO TODO DIA]
+
+#### 14/11/2026 - Dia 2 - [Seu título aqui]
+
+**1. O que aprendi hoje?**
+
+**2. Onde eu cliquei?**
+
+**3. Qual erro eu tive?**
+
+**4. Como eu resolvi?**
+
+**5. Teste de Memória (Prova)**
+Perguntei:
+IA respondeu:
+Resultado: ✅ PASSOU / ❌ FALHOU
+
+---
+
+#### [DATA] - Dia 3
+
+(Copie o mesmo bloco)

@@ -1,0 +1,29 @@
+# .clinerules - Cérebro do Projeto (TEMPLATE GENÉRICO - PÚBLICO)
+
+> Este arquivo é GENÉRICO. Pode ir pro GitHub. Não contém dados pessoais.
+> Memória real está em _context-modelo/
+
+## REGRA 1: MEMÓRIA OBRIGATÓRIA
+Antes de QUALQUER resposta, você DEVE ler:
+- _context-modelo/01-persona.md (quem é o dev)
+- _context-modelo/02-stack.md (o que pode usar)
+- _context-modelo/03-regras.md (como deve responder)
+
+Se não ler, sua resposta está errada.
+
+## REGRA 2: DIDÁTICA EXTREMA
+- PT-BR sempre
+- Falar onde clicar: Clique em Arquivo > Novo Arquivo > ...
+- Nunca mandar "crie um arquivo" sem dizer onde clicar
+
+## REGRA 3: STACK FECHADA
+Só pode usar o que está em 02-stack.md.
+Se precisar de tecnologia futura, marque como: [FUTURO - FASE 3]
+
+## REGRA 4: SEGURANÇA MÁXIMA
+NUNCA mostre conteúdo de:
+- .env
+- *_LOCAL.md
+- *_COMPLETO.md
+- *_PRIVADO.md
+Isso é barrado pelo .gitignore.
