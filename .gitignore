@@ -1,15 +1,78 @@
-# COFRE - NUNCA SOBE
+# =======================================================
+# .gitignore - O PORTEIRO DO PROJETO
+# =======================================================
+# O QUE É?
+# Lista de arquivos que NUNCA vão pro GitHub.
+#
+# PRA QUE SERVE?
+# Segurança e limpeza. Impede vazar senha e subir lixo.
+#
+# COMO FUNCIONA?
+# O que está escrito aqui é BARRADO. O que NÃO está, é LIBERADO.
+# =======================================================
+
+# -------------------------------------------------------
+# 1. COFRE - O MAIS IMPORTANTE
+# -------------------------------------------------------
+# ATENÇÃO DEV INICIAL: Entenda a diferença!
+#
+# .env = BARRADO (está nessa lista)
+# -> Tem suas senhas REAIS. Fica só no seu PC. NUNCA sobe.
+#
+# .env.example = LIBERADO (NÃO está nessa lista)
+# -> É só o MAPA, sem senha. PODE e DEVE subir pro GitHub.
+# -> É ele que ensina o próximo dev o que precisa configurar.
+#
+# O porteiro só barra quem tá na lista. Como .env.example
+# tem nome diferente de .env, ele passa.
+
 .env
 .env.local
+.env.development.local
+.env.production.local
 
-# MEMÓRIA PRIVADA - NUNCA SOBE
+# -------------------------------------------------------
+# 2. MEMÓRIA PRIVADA - Suas anotações locais
+# -------------------------------------------------------
+# Entenda a diferença também aqui:
+#
+# resumo_LOCAL.md = BARRADO (termina com _LOCAL.md)
+# -> Sua anotação privada, fica só no seu PC.
+#
+# resumo.md = LIBERADO (não termina com _LOCAL.md)
+# -> Conteúdo público, PODE subir pro GitHub.
+#
+# * significa "qualquer nome antes"
+
 *_LOCAL.md
 *_COMPLETO.md
 *_PRIVADO.md
 *SENHA*
 *TOKEN*
+*SECRET*
 
-# LIXO DO SISTEMA
+# -------------------------------------------------------
+# 3. LIXO DO SISTEMA E DO EDITOR
+# -------------------------------------------------------
+# Arquivos que seu computador cria sozinho.
+# BARRADOS porque são inúteis no GitHub.
+
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------------------------------------
+# 4. DEPENDÊNCIAS - Pasta gigante
+# -------------------------------------------------------
+# node_modules/ = BARRADA (está na lista)
+# -> Tem milhares de arquivos, não precisa subir.
+#
+# package.json = LIBERADO (não está na lista)
+# -> É a lista de compras. Quem baixar usa "npm install"
+# -> pra baixar tudo de novo.
+
 node_modules/
+dist/
+build/
+.next/
