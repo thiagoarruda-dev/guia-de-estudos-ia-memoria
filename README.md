@@ -1,3 +1,5 @@
+> **📝 Nota:** Este projeto está em construção e recebe **atualizações não periódicas**, conforme avanço nos estudos e testes práticos.
+
 # Guia de Estudos IA + Memória - Para Devs Jr
 
 > Criado por um Dev Jr para Devs Jr que querem dar memória e contexto para projetos de IA.

@@ -5,6 +5,11 @@
 
 ---
 
+## 📄 Estudos Detalhados nesta Pasta
+- 🧠 **[01 - Memória de Longo Prazo em LLMs](./01-memoria-de-longo-prazo.md)** (Pesquisa completa sobre como dar memória a modelos de linguagem)
+
+---
+
 ## 📌 O que é uma LLM?
 
 **LLM** significa *Large Language Model* (Grande Modelo de Linguagem). É o "cérebro" de inteligência artificial treinado com bilhões de textos para entender e gerar linguagem humana (exemplos: Qwen, Llama, GPT).
@@ -47,3 +52,4 @@ No fundo, uma LLM funciona como um **gerador de texto super inteligente que prev
 2. Abra a pasta `deep-dives`.
 3. Abra a pasta `llm-avancado`.
 4. Clique no arquivo `README.md`.
+

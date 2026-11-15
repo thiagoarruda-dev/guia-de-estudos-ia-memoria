@@ -11,6 +11,6 @@ Estudos aprofundados sobre temas cruciais para entender como dar memória e inte
 ---
 
 ## 📌 Outros Estudos
-- [01 - Memória de Longo Prazo](./01-memoria-longo-prazo.md)
+- [01 - Memória de Longo Prazo](./llm-avancado/01-memoria-de-longo-prazo.md)
 - [02 - Janela de Contexto](./02-janela-de-contexto.md)
 - [03 - RAG e Vetores](./03-rag-e-vetores.md)
