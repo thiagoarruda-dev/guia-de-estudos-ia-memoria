@@ -33,27 +33,13 @@ Perguntei: "Quem sou eu?"
 IA respondeu: "Você é Thiago de Porto de Galinhas/PE, Dev Jr em transição pra IA, projeto guia-de-estudos-ia-memoria"
 Resultado: ✅ PASSOU
 
----
-
-### [COPIE DAQUI PRA BAIXO TODO DIA]
-
-#### 14/11/2026 - Dia 2 - [Seu título aqui]
-
-**1. O que aprendi hoje?**
-
-**2. Onde eu cliquei?**
-
-**3. Qual erro eu tive?**
-
-**4. Como eu resolvi?**
-
-**5. Teste de Memória (Prova)**
-Perguntei:
-IA respondeu:
-Resultado: ✅ PASSOU / ❌ FALHOU
+### 15/11/2026 - Aprendi sobre Rate Limit
+- Tomei erro 429 - quota exceeded no Gemini free tier (20 req/dia)
+- Solução: fallback para LM Studio local
+- Lição: sempre ter plano B local para não parar de estudar
 
 ---
 
-#### [DATA] - Dia 3
 
-(Copie o mesmo bloco)
+
+---

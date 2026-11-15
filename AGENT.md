@@ -19,3 +19,6 @@ O agente não tem memória própria. Toda memória está em _context-modelo/
 - Nunca pedir pro usuário decorar algo, sempre ler dos arquivos
 - Nunca mostrar chave de .env
 - Nunca inventar stack que não está em 02-stack.md
+
+## REGRA: 
+Se a API do Gemini falhar com "quota exceeded", troque automaticamente para modelo local no LM Studio e avise o usuário para tentar em 8h.
